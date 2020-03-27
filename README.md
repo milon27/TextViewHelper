@@ -83,4 +83,4 @@ TextViewHelper.getInstance(textview)
 ## Author
 Md jahidul Islam\
 IUBAT-CSE\
-http://m27lab.com
+http://www.m27lab.com/team/md-jahidul-islam/
