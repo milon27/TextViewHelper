@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.m27lab.textviewhelper.TextViewHelper;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -48,13 +50,20 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        //from project
+//        TextViewHelper.getInstance(txtview)
+//                .setTextColor(Color.MAGENTA,0,4)
+//                .setTextColor(Color.GREEN,10,24)
+//                .setTextClickable(clickableSpan,31,41)
+//                .draw();
+        //from library
+//        TextViewHelper.getInstance(txtview)
+//                .setTextColor(Color.MAGENTA,0,4)
+//                .setTextColor(Color.GREEN,10,24)
+//                .setTextClickable(clickableSpan,31,41)
+//                .draw();
 
-        TextViewHelper.getInstance(txtview)
-                .setTextColor(Color.MAGENTA,0,4)
-                .setTextColor(Color.GREEN,10,24)
-                .setTextClickable(clickableSpan,31,41)
-                .draw();
-
+        TextViewHelper.getInstance(txtview).setTextColor(Color.MAGENTA,0,4).setTextColor(Color.GREEN,10,24).setTextClickable(clickableSpan,31,41).draw();
 
     }
 }
