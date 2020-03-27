@@ -68,8 +68,9 @@ TextViewHelper.getInstance(textview)
 ```
 ###### 3.2 Now using the getInstance method call setTextClickable() and pass ClickableSpan object we just created.
 ```
+    //you can add both textClickable and textColor method at the same time using .(dot) operator
     TextViewHelper.getInstance(txtview)
-        .setTextClickable(clickableSpan,31,41).//you can add both textClickable and textColor method at the same time using .(dot) operator
+        .setTextClickable(clickableSpan,31,41).
         draw();
 ```
 ---
