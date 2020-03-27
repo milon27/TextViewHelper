@@ -1,8 +1,10 @@
-# TextViewHelper
+# TextViewHelper version 1.0.0 
 
 **version 1.0.0**
 
 Change the Text Color of a Substring inside Android TextView
+
+![Image of TextViewHelper](https://github.com/milon27/TextViewHelper/blob/master/screenshot.png)
 
 ---
 
