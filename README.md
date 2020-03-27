@@ -48,9 +48,9 @@ TextViewHelper.getInstance(textview)
           .draw();
 ```
 
-#### step 2:set text Clickable  
+#### step 3:set text Clickable  
 
-###### 2.1 you need a ClickableSpan object to make a sub-string clickable.so first create a ClickableSpan object.
+###### 3.1 you need a ClickableSpan object to make a sub-string clickable.so first create a ClickableSpan object.
 ```
       ClickableSpan clickableSpan=new ClickableSpan() {
             @Override
@@ -66,7 +66,7 @@ TextViewHelper.getInstance(textview)
             }
         };
 ```
-###### 2.2 Now using the getInstance method call setTextClickable() and pass ClickableSpan object we just created.
+###### 3.2 Now using the getInstance method call setTextClickable() and pass ClickableSpan object we just created.
 ```
     TextViewHelper.getInstance(txtview)
         .setTextClickable(clickableSpan,31,41).//you can add both textClickable and textColor method at the same time using .(dot) operator
