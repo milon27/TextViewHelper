@@ -14,12 +14,19 @@ Change the Text Color of a Substring inside Android TextView
 Add it in your root build.gradle at the end of repositories:\
 
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+buildscript {
+    repositories {
+         ....
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+allprojects {
+    repositories {
+     .......
+        maven { url 'https://www.jitpack.io' }
+    }
+}
 
 ```
 
